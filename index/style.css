@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    background: #C83629;
+    padding: 30px;
+}
+
+.menu-right {
+    float: right;
+    padding-left: 20px;
+}
+
+.desktop {
+    text-align: center;
+    padding: 30px;
+    background-image: url(bg-red.svg);
+    background-size: cover;
+}
+
+.desktop_green {
+    text-align: center;
+    padding: 30px;
+    background-image: url(bg-green.svg);
+    background-size: cover;
+}
+
+.desktop_blue {
+    text-align: center;
+    padding: 30px;
+    background-image: url(bg-blue.svg);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 245px;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 85px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3, h4, h5 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+h4 {
+
+   font-size: 15px; 
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+
+
+}
+
+p{
+    color: white;
+    margin: 270px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+p.boxes {
+    margin: 50px;
+    margin-top: 10px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li.menu-right {
+    padding-top: 0px;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+
+li a:hover{
+    color: rosybrown;
+}
+
+.flex-container {
+    display: -webkit-flex;
+display: flex;
+justify-content: center;
+}
+
+.icons, .icons1 {
+    background-image: url(search.png); 
+    width:36px; 
+    height:36px; 
+    display:inline-block;
+    vertical-align:bottom;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
+.icons2 {
+    background-image: url(search.png); 
+    width:100px; 
+    height:100px; 
+    display:inline-block;
+    vertical-align:bottom;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.icons1, .icons2 {
+    margin-left: 0px;
+}
+
+.uslugi {
+    background: #C83629;
+    padding: 30px;
+}
+
+.uslugi-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.photo1 {
+    flex-basis: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.photo2 {
+    flex-basis: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.photo3 {
+flex-basis: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+
+.photo4 {
+    flex-basis: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.menu-horizont {
+    padding-top: 70px;
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+   padding-bottom: 50px;
+
+}
+
+.horizont {
+    padding: 5px;  
+   border: 2px solid transparent;
+}
+
+.horizont:hover {
+   border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;  
+}
+
+.photo_block {
+    /*
+    justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+img {
+    display: block;
+      width: 25%;
+      min-width: 314px;
+      height: 314px;
+      object-position: 10% 50%;
+      object-fit: cover;
+  }
+
+  .pay  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: stretch;
+        background-color: #28539A;
+  }
+
+  .pay_block {
+    /* background-color: red; */
+width: 400px;
+height: auto;
+padding-bottom: 70px;
+ }
+
+.pay p {
+    margin: 30px;
+}
+
+
+  .hr {
+    border-bottom: 1px solid white;
+  }
+
+  h5 {
+      margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+li {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.knopka {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.team {
+    background: #4C8746;
+    padding: 1px;
+} 
+
+.team_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    justify-content: space-between;
+
+}
+
+.team_block_one, .team_block_two, .team_block_three, .team_block_four {
+    margin-top: 50px;
+    background-color: red;
+width: 400px;
+height: 900px;
+ }
+
+ .team_block_one {
+     margin-left: 140px;
+ }
+
+ .team_block_four {
+    margin-right: 140px;
+}
